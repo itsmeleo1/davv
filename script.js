@@ -29,9 +29,9 @@
 const scores = [2, 3, 6, 8, 9, -3, 12];
 function filterNumbers(numbers) {
   let result = [];
-  for (let i = 0; i < scores.length; i++) {
-    if (scores[i] > 0 && scores[i] % 3 == 0) {
-      result.push(scores[i]);
+  for (let i = 0; i <  numbers.length; i++) {
+    if ( numbers[i] > 0 &&  numbers[i] % 3 == 0) {
+      result.push( numbers[i]);
     }
   }
   return result;
